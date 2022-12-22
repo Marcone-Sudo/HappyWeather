@@ -1,0 +1,73 @@
+body{
+    background: #8eb2c5;
+    background-image: url("../static/Imagens/background.png");
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#navbar{
+    display: flex;
+    position: fixed;
+    left: 0%;
+    bottom: 93%;
+    width: 100vw;
+    color: #000;
+}
+
+.BoxTextImg{
+    display: flex;
+    background-image: url("../static/Imagens/descricao.png");
+    background-repeat: no-repeat;
+    flex-direction: row;
+    align-items: center;
+    width: 73%;
+    height: 35%;
+    position: relative;
+    left: px;
+}
+
+.BoxTextButton{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 75%;
+    height: 100%;
+    position: relative;
+    left: px;
+}
+
+.TextOfBoxText{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+    width: 100%;
+    color:white;
+    padding-right: 2%;
+}
+
+.CornerImg{
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    padding-right: 2%;
+}
+
+#Button{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.Boxes{
+    display: flex;
+    padding-top: 2%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}

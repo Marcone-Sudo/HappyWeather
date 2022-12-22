@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Happy Weather</title>
+        <link href="{{ url_for('static', path='/styleResults_heather.css') }}" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+
+
+    <body>
+        <!-- barra de navegação -->
+        <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Happy Weather</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" >
+                            <a class="nav-link disabled">Clima da sua Cidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/ByCity/By_City">Clima de Outra Cidade</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="Boxes">
+            <div id="Today">
+                <div class= "Informations">
+                    <div class="Text">
+                            <h5  class="text">Hoje na cidade {{City}} temos um belo dia com</h5>
+                            <h1  class="text">{{ThisDay.description}}</h1>
+                    </div>
+                    <div class="tablediv">
+                        <table class="text">
+                            <tr>
+                                <th>Temperatura Atual</th>
+                                <td>{{Temp}}</td>
+    
+                                <th>Temp. prevista Maxima</th>
+                                <td>{{ThisDay.max}}</td>
+                            </tr>
+                            <tr>
+                                <th>Temp. prevista Minima</th>
+                                <td>{{ThisDay.min}}</td>
+    
+                                <th>Probabilidade de chuva</th>
+                                <td>{{ThisDay.rain_probability}}</td>
+    
+                            </tr>
+                            <tr>
+                                <th>Velocidade do vento</th>
+                                <td>{{Wind_speedy}}</td>
+                            
+                                <th>Humidade</th>
+                                <td>{{Humidity}}%</td>
+    
+                            </tr>
+                        </table>
+                    </div>                       
+    
+                </div>
+    
+                <div>
+                    <img class = "imageweather" id= "sun" src="../static/Imagens/sol.png">
+                </div>
+            </div>
+            <div class="NextDays">
+                {% for forecast in forecasts %}
+                    <div class="Day">
+                        <h4 class="text">
+                            {{forecast.date}}
+                        </h4> 
+                        <table class="text">
+                            <tr>
+                                <th>Descrição do dia</th>
+                                <td>{{forecast.description}}</td>
+                            </tr>
+                            <tr>
+                                <th>Temp. Maxima</th>
+                                <td>{{forecast.max}}</td>
+                            </tr>
+                            <tr>
+                                <th>Temp. Minima</th>
+                                <td>{{forecast.min}}</td>
+                            </tr>
+                            <tr>
+                                <th>Prob. de chuva</th>
+                                <td>{{forecast.rain_probability}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+    </body>
+</html> 

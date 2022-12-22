@@ -1,0 +1,153 @@
+{
+    "data_of_capture": [
+        {
+            "by": "geo_ip",
+            "valid_key": true,
+            "results": {
+                "temp": 32,
+                "date": "10/12/2022",
+                "time": "16:35",
+                "condition_code": "28",
+                "description": "Tempo nublado",
+                "currently": "dia",
+                "cid": "",
+                "city": "Rio Grande, RS",
+                "img_id": "28",
+                "humidity": 76,
+                "cloudiness": 100.0,
+                "rain": 0.0,
+                "wind_speedy": "5.3 km/h",
+                "wind_direction": 131,
+                "sunrise": "05:15 am",
+                "sunset": "07:27 pm",
+                "condition_slug": "cloudly_day",
+                "city_name": "Rio Grande",
+                "forecast": [
+                    {
+                        "date": "10/12",
+                        "weekday": "S\u00e1b",
+                        "max": 26,
+                        "min": 20,
+                        "cloudiness": 100.0,
+                        "rain": 0.0,
+                        "rain_probability": 0,
+                        "wind_speedy": "6.82 km/h",
+                        "description": "Tempo nublado",
+                        "condition": "cloudly_day"
+                    },
+                    {
+                        "date": "11/12",
+                        "weekday": "Dom",
+                        "max": 27,
+                        "min": 21,
+                        "cloudiness": 0.0,
+                        "rain": 0.0,
+                        "rain_probability": 0,
+                        "wind_speedy": "8.87 km/h",
+                        "description": "Tempo limpo",
+                        "condition": "clear_day"
+                    },
+                    {
+                        "date": "12/12",
+                        "weekday": "Seg",
+                        "max": 26,
+                        "min": 21,
+                        "cloudiness": 100.0,
+                        "rain": 0.0,
+                        "rain_probability": 0,
+                        "wind_speedy": "11 km/h",
+                        "description": "Tempo nublado",
+                        "condition": "cloudly_day"
+                    },
+                    {
+                        "date": "13/12",
+                        "weekday": "Ter",
+                        "max": 23,
+                        "min": 18,
+                        "cloudiness": 0.0,
+                        "rain": 0.0,
+                        "rain_probability": 0,
+                        "wind_speedy": "6.52 km/h",
+                        "description": "Tempo limpo",
+                        "condition": "clear_day"
+                    },
+                    {
+                        "date": "14/12",
+                        "weekday": "Qua",
+                        "max": 25,
+                        "min": 19,
+                        "cloudiness": 0.0,
+                        "rain": 0.0,
+                        "rain_probability": 0,
+                        "wind_speedy": "7.26 km/h",
+                        "description": "Tempo limpo",
+                        "condition": "clear_day"
+                    },
+                    {
+                        "date": "15/12",
+                        "weekday": "Qui",
+                        "max": 28,
+                        "min": 21,
+                        "cloudiness": 95.0,
+                        "rain": 0.49,
+                        "rain_probability": 32,
+                        "wind_speedy": "7.27 km/h",
+                        "description": "Chuvas esparsas",
+                        "condition": "rain"
+                    },
+                    {
+                        "date": "16/12",
+                        "weekday": "Sex",
+                        "max": 23,
+                        "min": 20,
+                        "cloudiness": 18.0,
+                        "rain": 0.12,
+                        "rain_probability": 20,
+                        "wind_speedy": "8.83 km/h",
+                        "description": "Chuvas esparsas",
+                        "condition": "rain"
+                    },
+                    {
+                        "date": "17/12",
+                        "weekday": "S\u00e1b",
+                        "max": 22,
+                        "min": 18,
+                        "cloudiness": 24.0,
+                        "rain": 0.5,
+                        "rain_probability": 46,
+                        "wind_speedy": "7.22 km/h",
+                        "description": "Chuvas esparsas",
+                        "condition": "rain"
+                    },
+                    {
+                        "date": "18/12",
+                        "weekday": "Dom",
+                        "max": 23,
+                        "min": 20,
+                        "cloudiness": 100.0,
+                        "rain": 1.41,
+                        "rain_probability": 50,
+                        "wind_speedy": "7.46 km/h",
+                        "description": "Chuvas esparsas",
+                        "condition": "rain"
+                    },
+                    {
+                        "date": "19/12",
+                        "weekday": "Seg",
+                        "max": 24,
+                        "min": 19,
+                        "cloudiness": 40.0,
+                        "rain": 0.28,
+                        "rain_probability": 24,
+                        "wind_speedy": "5.95 km/h",
+                        "description": "Chuvas esparsas",
+                        "condition": "rain"
+                    }
+                ],
+                "cref": "6880db"
+            },
+            "execution_time": 0.0,
+            "from_cache": true
+        }
+    ]
+}
