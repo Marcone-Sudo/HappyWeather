@@ -4,3 +4,4 @@ starlette==0.22.0
 Jinja2==3.1.2
 jsonschema==4.16.0
 requests==2.22.0
+python-multipart==0.0.5
